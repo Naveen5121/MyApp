@@ -74,23 +74,24 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   topHalf: {
-    flex: 1,
+    flex: 1.2,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#462EAF',
+    backgroundColor: '#473f97',
   },
   logo: {
-    width: 160,
-    height: 160,
+    width: 180,
+    height: 180,
     resizeMode: 'contain',
-    marginTop: 110,
-    marginBottom: 10,
+    marginTop: 90,
+    marginBottom: 20,
+    
   },
   title: {
-    fontSize: 30,
+    fontSize: 34,
     color: '#fff',
-    fontWeight: '600',
-    marginTop: 50,
+    fontWeight: '400',
+    marginTop: 30,
   },
   bottomHalf: {
     flex: 1,
@@ -102,9 +103,9 @@ const styles = StyleSheet.create({
   },
   label: {
     marginTop: 16,
-    marginBottom: 6,
+    marginBottom: 4,
     fontWeight: '500',
-    fontSize: 14,
+    fontSize: 18,
   },
   inputRow: {
     flexDirection: 'row',
@@ -114,32 +115,36 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
   },
   countryCode: {
-    fontSize: 16,
-    fontWeight: '500',
+    fontSize: 35,
+    fontWeight: '800',
     marginRight: 8,
     color: '#000',
+    marginTop:-15
   },
   input: {
     flex: 1,
-    fontSize: 16,
+    fontSize: 32,
     color: '#000',
+    marginTop:-13,
+    fontWeight: '800',
+
   },
-  signInButton: {
+   signInButton: {
     backgroundColor: '#3FAC49',
-    paddingVertical: 14,
-    borderRadius: 30,
-    marginTop: 80,
+    paddingVertical: 18,
+    borderRadius: 40,
+    marginTop: 50,
     alignItems: 'center',
   },
   signInText: {
     color: '#fff',
-    fontSize: 16,
-    fontWeight: '600',
+    fontSize: 18,
+    fontWeight: '400',
   },
   forgotText: {
     color: '#E5357B',
-    fontSize: 14,
+    fontSize: 18,
     textAlign: 'center',
-    marginTop: 16,
+    marginTop: 25,
   },
 });

@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-const Login = () => {
+const ForgotPassword = () => {
   return (
     <View style={styles.container}>
    
@@ -56,7 +56,7 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default ForgotPassword;
 
 const styles = StyleSheet.create({
   container: {
@@ -64,23 +64,24 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   topHalf: {
-    flex: 1,
+    flex: 1.2,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#462EAF',
+    backgroundColor: '#473f97',
   },
   logo: {
-    width: 160,
-    height: 160,
+    width: 180,
+    height: 180,
     resizeMode: 'contain',
-    marginTop: 110,
-    marginBottom: 50,
+    marginTop: 90,
+    marginBottom: 20,
+    
   },
   title: {
-    fontSize: 30,
+    fontSize: 34,
     color: '#fff',
-    fontWeight: '600',
-    marginTop: '0',
+    fontWeight: '400',
+    marginTop: 30,
   },
   bottomHalf: {
     flex: 1,
@@ -104,22 +105,37 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
   },
   countryCode: {
-    fontSize: 20,
+    fontSize: 35,
     fontWeight: '800',
     marginRight: 8,
     color: '#000',
+    marginTop:-15
   },
   input: {
     flex: 1,
-    fontSize: 20,
+    fontSize: 32,
     color: '#000',
+    marginTop:-13,
+    fontWeight: '800',
+
   },
   signInButton: {
     backgroundColor: '#3FAC49',
-    paddingVertical: 14,
-    borderRadius: 30,
-    marginTop: 80,
+    paddingVertical: 18,
+    borderRadius: 40,
+    marginTop: 45,
     alignItems: 'center',
   },
-
+  generateotp: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: '400',
+  },
+  cancel: {
+    color: '#E5357B',
+    fontSize: 18,
+    textAlign: 'center',
+    marginTop: 25,
+    
+  },
 });
